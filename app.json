@@ -1,0 +1,58 @@
+{
+  "name": "𝐇𝐈𝐑𝐔 𝐗 𝐌𝐃 𝐕1",
+  "description": "Javascript WhatsApp bot made by Mr.Tharusha Sandipa",
+  "logo": "https://i.ibb.co/3yz3Spt9/Tharusha-Md.jpg",
+  "keywords": ["𝐇𝐈𝐑𝐔 𝐗 𝐌𝐃 𝐕1","𝐇𝐈𝐑𝐔 𝐗 𝐌𝐃 𝐕1"],
+  "success_url": "/",
+
+    "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "Must Start with '𝐇𝐈𝐑𝐔 𝐗 𝐌𝐃 𝐕1&'",
+      "required": true,
+      "value": ""
+    },
+      "BOT_NAME": {
+        "description": "write here your bot name.",
+        "required": true,
+        "value": "𝐇𝐈𝐑𝐔 𝐗 𝐌𝐃 𝐕1"      
+    },  
+    "MODE": {
+      "description": "Set private/public/inbox/groups",
+      "required": false,
+      "value": "public"
+     },
+   
+    "PREFIX": {
+      "description": "Your Bot Prefix (default: .) You can put your own custom prefix",
+      "required": true,
+      "value": "."
+    },
+    
+    "OWNER_NAME": {
+      "description": "Put Owner Name Here",
+      "required": true,
+      "value": "Mr.𝐇𝐢𝐫𝐮𝐧 𝐕𝐢𝐤𝐚𝐬𝐢𝐭𝐡𝐚"
+    },
+    "OWNER_NUMBER": {
+      "description": "Put only one Owner Number Here",
+      "required": true,
+      "value": "94702529242"
+    },
+    
+    "PRESENCE": {
+      "description": "Put online/typing/recording/unavailable",
+      "required": true,
+      "value": "online"
+    }
+
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
+  
